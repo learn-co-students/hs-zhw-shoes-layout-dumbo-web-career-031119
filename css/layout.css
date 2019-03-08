@@ -22,6 +22,52 @@
   clear: both;
 }
 
+
 /* Positioning Classes */
+.col-1{
+  float: left;
+  width: 31%;
+  margin-right: 4%;
 
+}
+ .col-2{
+   float: left;
+   width:31%;
+ }
+ .col-3{
+   float: right;
+   width:31%;
+ }
+[class*="col-"]{
+  ;
+  margin-top: 2%;
+}
 
+.grass{
+  float: left;
+  width: 66%;
+}
+
+.archive{
+  float:right;
+  width:31%;
+  height: 100%;
+  height: auto;
+}
+
+.contacts{
+  float:left;
+  width:33%;
+
+}
+
+.links{
+  float:left;
+  width:33%;
+  padding-left: 2%;
+}
+.follow{
+  float:right;
+  width:33%;
+  padding-left: 2%
+}
