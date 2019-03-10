@@ -112,6 +112,7 @@ iframe {
 
 .shadow {
   box-shadow: 0 3px 10px #333;
+  margin-bottom: 20px;
 }
 
 .milk_text {
@@ -133,6 +134,26 @@ iframe {
 .contact_form {
   height: 415px;
 }
+
+.col-1 {
+  float:left;
+  width: 32%;
+}
+
+.col-2 {
+  float:left;
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+/* Couldn't I just have put nearly the whole thing in one single wrapper?... */
 
 /********** Header **********/
 
